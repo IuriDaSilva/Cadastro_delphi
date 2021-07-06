@@ -1,0 +1,64 @@
+unit UnitCadCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Grids,
+  Vcl.DBGrids, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TformListClientes = class(TForm)
+    Panel1: TPanel;
+    txtBusca: TEdit;
+    Panel2: TPanel;
+    Label1: TLabel;
+    DBGrid1: TDBGrid;
+    Label2: TLabel;
+    procedure txtBuscaChange(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+    procedure DBGrid1DrawDataCell(Sender: TObject; const Rect: TRect;
+      Field: TField; State: TGridDrawState);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formListClientes: TformListClientes;
+
+implementation
+
+{$R *.dfm}
+
+uses UnitDM, UnitNovoCliente;
+
+procedure TformListClientes.BitBtn2Click(Sender: TObject);
+begin
+  formCadCliente.ShowModal;
+end;
+
+procedure TformListClientes.DBGrid1DrawDataCell(Sender: TObject;
+  const Rect: TRect; Field: TField; State: TGridDrawState);
+   var
+  nLinha: integer;
+begin
+  // obtém o número do registro (linha)
+  nLinha := DBGrid1.DataSource.DataSet.RecNo;
+
+  // verifica se o número da linha é par ou ímpar, aplicando as cores
+  if Odd(nLinha) then
+    DBGrid1.Canvas.Brush.Color := clMenu
+  else
+    DBGrid1.Canvas.Brush.Color := clMoneyGreen;
+
+end;
+
+
+procedure TformListClientes.txtBuscaChange(Sender: TObject);
+begin
+   DM.tbClientes.Locate('nome',txtBusca.Text,[loPartialKey]);
+end;
+
+end.

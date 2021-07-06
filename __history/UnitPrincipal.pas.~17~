@@ -12,8 +12,7 @@ type
     Panel1: TPanel;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
-    Label1: TLabel;
-    Panel2: TPanel;
+    procedure txtBuscaChange(Sender: TObject);
     procedure BitBtn2Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
   private
@@ -39,6 +38,11 @@ end;
 procedure TForm2.BitBtn2Click(Sender: TObject);
 begin
   formCadCliente.ShowModal;
+end;
+
+procedure TForm2.txtBuscaChange(Sender: TObject);
+begin
+  DM.tbClientes.Locate('nome',txtBusca.Text,[loPartialKey]);
 end;
 
 end.

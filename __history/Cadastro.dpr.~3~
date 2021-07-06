@@ -4,8 +4,8 @@ uses
   Vcl.Forms,
   UnitPrincipal in 'UnitPrincipal.pas' {Form2},
   UnitDM in 'UnitDM.pas' {DM: TDataModule},
-  UnitNovoCliente in 'UnitNovoCliente.pas' {formCadCliente},
-  UnitCadCliente in 'UnitCadCliente.pas' {formListClientes};
+  UnitNovoCliente in 'UnitNovoCliente.pas' {Form1},
+  UnitCadCliente in 'UnitCadCliente.pas' {FormCadClientes};
 
 {$R *.res}
 
@@ -14,7 +14,7 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TForm2, Form2);
   Application.CreateForm(TDM, DM);
-  Application.CreateForm(TformCadCliente, formCadCliente);
-  Application.CreateForm(TformListClientes, formListClientes);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormCadClientes, FormCadClientes);
   Application.Run;
 end.

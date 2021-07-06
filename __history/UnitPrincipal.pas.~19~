@@ -13,7 +13,6 @@ type
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
     Label1: TLabel;
-    Panel2: TPanel;
     procedure BitBtn2Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
   private
