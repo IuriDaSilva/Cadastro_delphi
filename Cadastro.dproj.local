@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/07/05 10:13:43.425,=C:\Users\casa\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/07/05 10:38:59.768,C:\Users\casa\Desktop\Cadastro\UnitPrincipal.dfm=C:\Users\casa\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2021/07/05 10:38:59.768,C:\Users\casa\Desktop\Cadastro\UnitPrincipal.pas=C:\Users\casa\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/07/05 10:39:14.574,C:\Users\casa\Desktop\Cadastro\Cadastro.dproj=C:\Users\casa\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2021/07/05 11:04:13.057,=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/05 11:05:12.239,C:\Users\casa\Desktop\Cadastro\UnitDM.dfm=C:\Users\casa\Desktop\Cadastro\Unit1.dfm</Transaction>
+    <Transaction>2021/07/05 11:05:12.239,C:\Users\casa\Desktop\Cadastro\UnitDM.pas=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/05 16:32:54.492,=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/05 16:35:59.103,=C:\Users\casa\Desktop\Cadastro\Unit3.pas</Transaction>
+    <Transaction>2021/07/05 16:41:43.237,C:\Users\casa\Desktop\Cadastro\UnitCadCliente.dfm=C:\Users\casa\Desktop\Cadastro\Unit3.dfm</Transaction>
+    <Transaction>2021/07/05 16:41:43.237,C:\Users\casa\Desktop\Cadastro\UnitCadCliente.pas=C:\Users\casa\Desktop\Cadastro\Unit3.pas</Transaction>
+    <Transaction>2021/07/05 16:42:04.900,C:\Users\casa\Desktop\Cadastro\UnitNovoCliente.pas=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/05 16:42:04.900,C:\Users\casa\Desktop\Cadastro\UnitNovoCliente.dfm=C:\Users\casa\Desktop\Cadastro\Unit1.dfm</Transaction>
+    <Transaction>2021/07/06 19:18:46.598,=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/06 19:24:56.059,C:\Users\casa\Desktop\Cadastro\UnitEditUser.pas=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/06 19:24:56.088,C:\Users\casa\Desktop\Cadastro\UnitEditUser.dfm=C:\Users\casa\Desktop\Cadastro\Unit1.dfm</Transaction>
+    <Transaction>2021/07/06 19:37:32.494,=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/07/06 19:40:03.854,C:\Users\casa\Desktop\Cadastro\editUser.dfm=C:\Users\casa\Desktop\Cadastro\Unit1.dfm</Transaction>
+    <Transaction>2021/07/06 19:40:03.854,C:\Users\casa\Desktop\Cadastro\editUser.pas=C:\Users\casa\Desktop\Cadastro\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
