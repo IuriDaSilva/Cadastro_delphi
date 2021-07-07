@@ -26,8 +26,8 @@ object formCadCliente: TformCadCliente
     TabOrder = 0
     ExplicitTop = -8
     object Label1: TLabel
-      Left = 56
-      Top = 41
+      Left = 64
+      Top = 9
       Width = 552
       Height = 39
       Caption = 'Preencha o formul'#225'rio de cadastro'
@@ -158,8 +158,8 @@ object formCadCliente: TformCadCliente
       ParentFont = False
     end
     object DBNavigator1: TDBNavigator
-      Left = 40
-      Top = 102
+      Left = 8
+      Top = 93
       Width = 600
       Height = 57
       DataSource = DM.dsClientes
@@ -197,7 +197,7 @@ object formCadCliente: TformCadCliente
       TabOrder = 3
     end
     object DBEdit6: TDBEdit
-      Left = 291
+      Left = 288
       Top = 315
       Width = 274
       Height = 21
@@ -206,7 +206,7 @@ object formCadCliente: TformCadCliente
       TabOrder = 4
     end
     object DBEdit5: TDBEdit
-      Left = 8
+      Left = 5
       Top = 315
       Width = 277
       Height = 21

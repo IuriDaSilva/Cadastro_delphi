@@ -10,10 +10,10 @@ uses
 type
   TForm2 = class(TForm)
     Panel1: TPanel;
-    Panel2: TPanel;
-    Label1: TLabel;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
+    Label1: TLabel;
+    Panel2: TPanel;
     procedure BitBtn2Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
   private

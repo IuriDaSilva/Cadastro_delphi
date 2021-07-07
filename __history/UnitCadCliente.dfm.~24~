@@ -80,9 +80,7 @@ object formListClientes: TformListClientes
       TitleFont.Height = -11
       TitleFont.Name = 'Tahoma'
       TitleFont.Style = []
-      OnCellClick = DBGrid1CellClick
       OnDrawDataCell = DBGrid1DrawDataCell
-      OnEnter = DBGrid1Enter
       Columns = <
         item
           Alignment = taCenter

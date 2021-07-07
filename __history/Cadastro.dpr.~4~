@@ -5,8 +5,7 @@ uses
   UnitPrincipal in 'UnitPrincipal.pas' {Form2},
   UnitDM in 'UnitDM.pas' {DM: TDataModule},
   UnitNovoCliente in 'UnitNovoCliente.pas' {formCadCliente},
-  UnitCadCliente in 'UnitCadCliente.pas' {formListClientes},
-  editUser in 'editUser.pas' {FormEdit};
+  UnitCadCliente in 'UnitCadCliente.pas' {formListClientes};
 
 {$R *.res}
 
@@ -17,6 +16,5 @@ begin
   Application.CreateForm(TDM, DM);
   Application.CreateForm(TformCadCliente, formCadCliente);
   Application.CreateForm(TformListClientes, formListClientes);
-  Application.CreateForm(TFormEdit, FormEdit);
   Application.Run;
 end.

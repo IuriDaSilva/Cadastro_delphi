@@ -19,8 +19,7 @@ type
     procedure BitBtn2Click(Sender: TObject);
     procedure DBGrid1DrawDataCell(Sender: TObject; const Rect: TRect;
       Field: TField; State: TGridDrawState);
-    procedure DBGrid1CellClick(Column: TColumn);
-    procedure DBGrid1Enter(Sender: TObject);
+    procedure DBMemo1Exit(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,18 +33,11 @@ implementation
 
 {$R *.dfm}
 
-uses UnitNovoCliente, UnitDM, editUser;
-
-
+uses UnitDM, UnitNovoCliente;
 
 procedure TformListClientes.BitBtn2Click(Sender: TObject);
 begin
   formCadCliente.ShowModal;
-end;
-
-procedure TformListClientes.DBGrid1CellClick(Column: TColumn);
-begin
- FormEdit.ShowModal;
 end;
 
 procedure TformListClientes.DBGrid1DrawDataCell(Sender: TObject;
@@ -64,9 +56,9 @@ begin
 end;
 
 
-procedure TformListClientes.DBGrid1Enter(Sender: TObject);
+procedure TformListClientes.DBMemo1Exit(Sender: TObject);
 begin
-FormEdit.ShowModal;
+  DBMemo1.Visible := False;
 end;
 
 procedure TformListClientes.txtBuscaChange(Sender: TObject);

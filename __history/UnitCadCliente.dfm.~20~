@@ -80,9 +80,8 @@ object formListClientes: TformListClientes
       TitleFont.Height = -11
       TitleFont.Name = 'Tahoma'
       TitleFont.Style = []
-      OnCellClick = DBGrid1CellClick
+      OnColEnter = DBGrid1ColEnter
       OnDrawDataCell = DBGrid1DrawDataCell
-      OnEnter = DBGrid1Enter
       Columns = <
         item
           Alignment = taCenter
@@ -223,5 +222,15 @@ object formListClientes: TformListClientes
     Height = 21
     TabOrder = 1
     OnChange = txtBuscaChange
+  end
+  object DBMemo1: TDBMemo
+    Left = 224
+    Top = 312
+    Width = 185
+    Height = 89
+    DataSource = DM.dsClientes
+    TabOrder = 3
+    Visible = False
+    OnExit = DBMemo1Exit
   end
 end

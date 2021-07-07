@@ -159,7 +159,7 @@ object formCadCliente: TformCadCliente
     end
     object DBNavigator1: TDBNavigator
       Left = 40
-      Top = 102
+      Top = 109
       Width = 600
       Height = 57
       DataSource = DM.dsClientes

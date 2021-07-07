@@ -82,7 +82,6 @@ object formListClientes: TformListClientes
       TitleFont.Style = []
       OnCellClick = DBGrid1CellClick
       OnDrawDataCell = DBGrid1DrawDataCell
-      OnEnter = DBGrid1Enter
       Columns = <
         item
           Alignment = taCenter

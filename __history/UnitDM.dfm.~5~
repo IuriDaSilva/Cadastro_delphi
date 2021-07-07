@@ -34,7 +34,6 @@ object DM: TDM
       FieldName = 'CPF'
       Origin = 'CPF'
       Required = True
-      EditMask = '999.999.999-99;1;_'
       Size = 15
     end
     object tbClientesendereco: TStringField
@@ -65,7 +64,6 @@ object DM: TDM
       FieldName = 'CEP'
       Origin = 'CEP'
       Required = True
-      EditMask = '99999-999;1;_'
       Size = 10
     end
     object tbClientesemail: TStringField
@@ -78,7 +76,6 @@ object DM: TDM
       FieldName = 'telefone'
       Origin = 'telefone'
       Required = True
-      EditMask = '(99)9999-9999;1;_'
       Size = 15
     end
   end
